@@ -1,0 +1,101 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f3f4f6;
+  overflow-x: hidden;
+}
+
+/* Main Container */
+.loginsignup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../../Components/Assets/backgnd.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #333;
+}
+
+/* Form Container */
+.loginsignUp-container {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  max-width: 90%;
+  transition: transform 0.3s ease;
+  
+}
+
+/* Headline */
+.loginsignUp-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+  color: #2ec651;
+}
+
+/* Input Fields */
+.loginsignUp-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.9);
+  font-size: 1em;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.loginsignUp-container input:focus {
+  border-color: #2ec651;
+  box-shadow: 0 0 8px rgba(46, 198, 81, 0.5);
+}
+
+/* Checkbox and Agreement Text */
+.loginsignup-agree {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.loginsignup-agree label {
+  margin-left: 10px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #2ec651;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Toggle Link */
+.loginsignup-toggle {
+  margin-top: 15px;
+  text-align: center;
+  color: #2ec651;
+  cursor: pointer;
+  font-size: 0.9em;
+  text-decoration: underline;
+}
+
+.loginsignup-toggle:hover {
+  color: #218838;
+}
